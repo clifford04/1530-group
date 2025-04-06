@@ -1,7 +1,5 @@
 // contains code for fetching a album's details
 
-// CONNOR
-
 import 'package:flutter/material.dart';
 import 'package:mvvm_flutter/web_service.dart';
 import 'package:mvvm_flutter/viewmodels/album_details_view_model.dart';

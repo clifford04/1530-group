@@ -3,9 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:mvvm_flutter/views/friend_page.dart';
 import 'package:mvvm_flutter/views/chats_page.dart';
 import 'package:mvvm_flutter/views/review_page.dart';
+import 'package:mvvm_flutter/views/review_details_page.dart';
+import 'package:mvvm_flutter/viewmodels/album_info_view_model.dart';
+import 'package:mvvm_flutter/viewmodels/rating_view_model.dart';
 
 void main() {
-    runApp(MyApp());
+  runApp(MultiProvider(
+    providers: [
+      ChangeNotifierProvider(create: (context) => AlbumInfoViewModel()),
+      ChangeNotifierProvider(create: (context) => RatingProvider()),
+    ],
+    child: MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -32,6 +41,7 @@ class _MainPageState extends State<MainPage> {
     '/friend',
     '/chat',
     '/review',
+    '/add_review'
   ];
 
   // A GlobalKey for the Navigator
@@ -62,6 +72,8 @@ class _MainPageState extends State<MainPage> {
               return MaterialPageRoute(builder: (context) => ReviewPage());
             case '/chat':
               return MaterialPageRoute(builder: (context) => ChatScreen());
+            case '/add_review':
+              return MaterialPageRoute(builder: (context) => AddReviewPage());
           }
         },
       ),
@@ -86,3 +98,6 @@ class _MainPageState extends State<MainPage> {
     );
   }
 }
+
+
+

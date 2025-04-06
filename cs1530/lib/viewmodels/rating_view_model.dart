@@ -1,8 +1,6 @@
 // when a user rates a album, this allows access to the value
 // associated with the rating (aka number of stars)
 
-// RAGUL
-
 import 'package:flutter/material.dart';
 
 // RatingProvider to manage the rating globally
