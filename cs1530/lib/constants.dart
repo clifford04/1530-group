@@ -7,6 +7,7 @@ import 'package:mvvm_flutter/models/friends.dart';
 List<String> friends = List.empty(growable: true);
 List<Map<String, int>> users_ratings = List.empty(growable: true);
 List<Map<String, String>> users_reviews = List.empty(growable: true);
+List<String> friends = List.empty(growable: true);
 
 List<Map<String, List<Map<String, int>>>> friends_ratings = [
   {
