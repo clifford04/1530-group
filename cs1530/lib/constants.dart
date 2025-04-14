@@ -569,3 +569,166 @@ List<Map<String, dynamic>> songs = [
     "Cover": "assets/album16.jpg"
   }
 ];
+
+List<Friend> friendsVM = [
+  Friend(
+    name: 'Steve',
+    age: 24,
+    bio: 'Loves chill music.',
+    favoriteAlbums: [
+      "assets/album3.jpg",
+      "assets/album11.jpg",
+      "assets/album7.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Rachel',
+    age: 28,
+    bio: 'Big fan of old school music.',
+    favoriteAlbums: [
+      "assets/album9.jpg",
+      "assets/album1.jpg",
+      "assets/album15.jpg"
+    ],
+  ),
+  Friend(
+    name: 'James',
+    age: 22,
+    bio: 'Tech enthusiast and rock lover.',
+    favoriteAlbums: [
+      "assets/album2.jpg",
+      "assets/album10.jpg",
+      "assets/album16.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Sophia',
+    age: 26,
+    bio: 'Enjoys mysteries, thrillers, and long walks.',
+    favoriteAlbums: [
+      "assets/album13.jpg",
+      "assets/album8.jpg",
+      "assets/album6.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Liam',
+    age: 30,
+    bio: 'Music lover and sports enthusiast.',
+    favoriteAlbums: [
+      "assets/album12.jpg",
+      "assets/album14.jpg",
+      "assets/album4.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Emma',
+    age: 32,
+    bio: 'Passionate about yoga, nature, and indie music.',
+    favoriteAlbums: [
+      "assets/album5.jpg",
+      "assets/album2.jpg",
+      "assets/album1.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Ethan',
+    age: 35,
+    bio: 'A foodie who loves trying new recipes.',
+    favoriteAlbums: [
+      "assets/album7.jpg",
+      "assets/album10.jpg",
+      "assets/album9.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Olivia',
+    age: 27,
+    bio: 'Lover of books, documentaries, and traveling.',
+    favoriteAlbums: [
+      "assets/album6.jpg",
+      "assets/album3.jpg",
+      "assets/album13.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Noah',
+    age: 40,
+    bio: 'Loves 80s music and going to vintage markets.',
+    favoriteAlbums: [
+      "assets/album8.jpg",
+      "assets/album11.jpg",
+      "assets/album15.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Ava',
+    age: 55,
+    bio: 'Enjoys cooking, gardening, and quiet nights in.',
+    favoriteAlbums: [
+      "assets/album16.jpg",
+      "assets/album5.jpg",
+      "assets/album4.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Mason',
+    age: 18,
+    bio: 'Fresh out of high school, into gaming and comics.',
+    favoriteAlbums: [
+      "assets/album1.jpg",
+      "assets/album14.jpg",
+      "assets/album2.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Isabella',
+    age: 39,
+    bio: 'Loves adventure sports and nature documentaries.',
+    favoriteAlbums: [
+      "assets/album12.jpg",
+      "assets/album6.jpg",
+      "assets/album7.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Jacob',
+    age: 50,
+    bio: 'Into photography, fine arts, and history.',
+    favoriteAlbums: [
+      "assets/album9.jpg",
+      "assets/album10.jpg",
+      "assets/album3.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Mia',
+    age: 33,
+    bio: 'A big fan of rap music and fitness.',
+    favoriteAlbums: [
+      "assets/album8.jpg",
+      "assets/album13.jpg",
+      "assets/album5.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Lucas',
+    age: 60,
+    bio: 'Retired and enjoying life, love old-school films.',
+    favoriteAlbums: [
+      "assets/album16.jpg",
+      "assets/album11.jpg",
+      "assets/album15.jpg"
+    ],
+  ),
+  Friend(
+    name: 'Amelia',
+    age: 100,
+    bio: 'A century of wisdom, enjoys jazz.',
+    favoriteAlbums: [
+      "assets/album4.jpg",
+      "assets/album12.jpg",
+      "assets/album14.jpg"
+    ],
+  ),
+];
