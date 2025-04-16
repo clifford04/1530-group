@@ -4,170 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e71fa5-fa62-43d0-a5fe-9de9fd650947" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cs1530/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/analysis_options.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/kotlin/edu/pitt/sci/cs1635/cs1635_3_3_composition/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/kotlin/edu/pitt/sci/cs1635/mvvm_flutter/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/res/drawable-v21/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/res/values-night/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/android/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/album9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/assets/friend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/2de4c77feb898036f51dcfaa065edb72/_composite.stamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/2de4c77feb898036f51dcfaa065edb72/gen_dart_plugin_registrant.stamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/2de4c77feb898036f51dcfaa065edb72/gen_localizations.stamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/8640004d52698bd54bc646dbe8320504/_composite.stamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/8640004d52698bd54bc646dbe8320504/gen_dart_plugin_registrant.stamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/8640004d52698bd54bc646dbe8320504/gen_localizations.stamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/flutter_assets/AssetManifest.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/flutter_assets/AssetManifest.bin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/flutter_assets/FontManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/flutter_assets/NOTICES" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/flutter_assets/fonts/MaterialIcons-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/build/flutter_assets/shaders/ink_sparkle.frag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/images/profile_picture.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Podfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/AppDelegate.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/ios/RunnerTests/RunnerTests.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/linux/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/linux/flutter/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/linux/flutter/generated_plugins.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/linux/main.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/linux/my_application.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/linux/my_application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Flutter/ephemeral/Flutter-Generated.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Flutter/ephemeral/flutter_export_environment.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Podfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/AppDelegate.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Base.lproj/MainMenu.xib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Configs/AppInfo.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Configs/Debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Configs/Release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Configs/Warnings.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/DebugProfile.entitlements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/MainFlutterWindow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/Runner/Release.entitlements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/macos/RunnerTests/RunnerTests.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/pubspec.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/test/widget_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/web/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/web/icons/Icon-192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/web/icons/Icon-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/web/icons/Icon-maskable-192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/web/icons/Icon-maskable-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/web/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/windows/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/windows/runner/flutter_window.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/windows/runner/utils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cs1530/windows/runner/utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="d1e71fa5-fa62-43d0-a5fe-9de9fd650947" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,24 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/olivianeights/Documents/swe-new&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "olivia",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/olivianeights/Documents/swe-new",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
