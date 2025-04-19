@@ -1,14 +1,10 @@
-import 'package:flutter/material.dart';
+// this is the main review page-- when using navigation bar to navigate
+// to review page this is the page you land on
+// shows what album user and their friends have reviewed
+
 import 'package:flutter/material.dart';
 import 'package:mvvm_flutter/constants.dart';
 import 'package:mvvm_flutter/widgets/review_card.dart';
-
-class ReviewPage extends StatefulWidget {
-  @override
-  _ReviewPageState createState() => _ReviewPageState();
-}
-
-// Review Page Widget
 
 class ReviewPage extends StatefulWidget {
   @override
@@ -25,7 +21,7 @@ class _ReviewPageState extends State<ReviewPage> {
   Widget build(BuildContext context) {
     return Column(children: [
       ElevatedButton.icon(
-          // if Review Music button at top of page is clicked, go to review_details_page.dart
+        // if Review Music button at top of page is clicked, go to review_details_page.dart
           onPressed: () => Navigator.pushNamed(context, '/add_review'),
           icon: Icon(Icons.add),
           label: Text("Review Music"),
@@ -39,8 +35,8 @@ class _ReviewPageState extends State<ReviewPage> {
             color: Colors.black,
           )),
       Visibility(
-          // users_ratings from database
-          // shows up if user has not made any reviews
+        // users_ratings from database
+        // shows up if user has not made any reviews
           visible: users_ratings.isEmpty,
           child: SizedBox(
             height: 50,
@@ -136,13 +132,5 @@ class _ReviewPageState extends State<ReviewPage> {
                 );
               })),
     ]);
-  }
-}
-
-
-class _ReviewPageState extends State<ReviewPage> {
-  @override
-  Widget build(BuildContext context) {
-    return Text("Review page");
   }
 }

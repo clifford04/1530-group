@@ -4,18 +4,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-Widget buildCard(String title, String text) {
+Widget buildCard(String title, String? text) {
   return Card(
-    elevation: 4, // Gives the card a shadow effect
+    elevation: 4, // gives the card a shadow effect
     shape: RoundedRectangleBorder(
-      borderRadius: BorderRadius.circular(10), // Rounded corners for the card
+      borderRadius: BorderRadius.circular(10), // rounded corners for the card
     ),
     child: Padding(
       padding: const EdgeInsets.all(16.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Title of the card
+          // title of the card
           Text(
             title,
             style: TextStyle(
@@ -23,13 +23,14 @@ Widget buildCard(String title, String text) {
               fontWeight: FontWeight.bold,
             ),
           ),
-          SizedBox(height: 10), // Space between the title and text
-          // Text under the title
+          SizedBox(height: 10), // space between the title and text
+          // text under the title
+          // left blank if no review was written
           Text(
-            text,
+            text ?? '',
             style: TextStyle(
               fontSize: 16,
-              color: Colors.black54, // Lighter color for the text
+              color: Colors.black54, // lighter color for the text
             ),
           ),
         ],

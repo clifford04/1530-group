@@ -1,7 +1,5 @@
 // model for a friend--shown on friends page when going to follow friend
 
-// OLIVIA
-
 class Friend {
   final String name;
   final int age;

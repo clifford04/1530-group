@@ -5,8 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:mvvm_flutter/viewmodels/friends_view_model.dart';
 import 'package:mvvm_flutter/constants.dart';
 
-// CONNOR
-
 class FriendPage extends StatefulWidget {
   @override
   _FriendPageState createState() => _FriendPageState();
@@ -76,14 +74,14 @@ class _FriendPageState extends State<FriendPage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: List.generate(friend.favoriteAlbums.length,
-                              (index) {
-                            return Image.asset(
-                              friend.favoriteAlbums[index],
-                              width: MediaQuery.of(context).size.width * 0.25,
-                              height: MediaQuery.of(context).size.width * 0.25,
-                              fit: BoxFit.cover,
-                            );
-                          }),
+                                  (index) {
+                                return Image.asset(
+                                  friend.favoriteAlbums[index],
+                                  width: MediaQuery.of(context).size.width * 0.25,
+                                  height: MediaQuery.of(context).size.width * 0.25,
+                                  fit: BoxFit.cover,
+                                );
+                              }),
                         ),
                       ],
                     ),
@@ -136,10 +134,10 @@ class _FriendPageState extends State<FriendPage> {
                           : Colors.grey),
                   onPressed: viewModel.currentIndex > 0
                       ? () {
-                          setState(() {
-                            viewModel.moveToPreviousFriend();
-                          });
-                        }
+                    setState(() {
+                      viewModel.moveToPreviousFriend();
+                    });
+                  }
                       : null,
                 ),
                 ElevatedButton(
@@ -149,7 +147,7 @@ class _FriendPageState extends State<FriendPage> {
                       friend.togglePressedStatus();
                       // adding or removing a friend depending on which button hit
                       friend.pressed
-                          // friends from database
+                      // friends from database
                           ? friends.add(friend.name)
                           : friends.remove(friend.name);
                     });
@@ -157,7 +155,7 @@ class _FriendPageState extends State<FriendPage> {
                   // button has different color and text depending on what it does
                   style: ElevatedButton.styleFrom(
                     backgroundColor:
-                        friend.pressed ? Colors.redAccent : Colors.greenAccent,
+                    friend.pressed ? Colors.redAccent : Colors.greenAccent,
                   ),
                   child: Text(friend.pressed ? 'Unfriend' : 'Add Friend!'),
                 ),

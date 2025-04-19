@@ -1,9 +1,13 @@
+// main file--contains the navigation bar
+// contains routes and notifier providers
+
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import 'package:mvvm_flutter/views/friend_page.dart';
 import 'package:mvvm_flutter/views/chats_page.dart';
-import 'package:mvvm_flutter/views/add_review_page.dart';
 import 'package:mvvm_flutter/views/review_page.dart';
+import 'package:mvvm_flutter/views/add_review_page.dart';
 import 'package:mvvm_flutter/views/review_details_page.dart';
 import 'package:mvvm_flutter/viewmodels/albums_list_view_model.dart';
 import 'package:mvvm_flutter/viewmodels/album_info_view_model.dart';
@@ -38,7 +42,6 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-
   // review page is first page that user is taken to when app runs
   int _currentIndex = 2;
 
@@ -58,7 +61,7 @@ class _MainPageState extends State<MainPage> {
       _currentIndex = index;
       _navigatorKey.currentState!.pushNamedAndRemoveUntil(
         _routes[index],
-        (route) => false,
+            (route) => false,
       );
     });
   }
@@ -82,6 +85,11 @@ class _MainPageState extends State<MainPage> {
               return MaterialPageRoute(builder: (context) => AddReviewPage());
             case '/review_details':
               var iD = settings.arguments as String;
+              return MaterialPageRoute(
+                  builder: (context) => ReviewDetailsPage(iD));
+            default:
+              return MaterialPageRoute(builder: (context) => FriendPage());
+          }
         },
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -105,6 +113,3 @@ class _MainPageState extends State<MainPage> {
     );
   }
 }
-
-
-

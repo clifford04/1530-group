@@ -1,3 +1,5 @@
+// contains getters for reviews
+
 import 'package:mvvm_flutter/models/review.dart';
 
 class ReviewViewModel {

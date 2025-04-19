@@ -5,7 +5,6 @@ import 'package:mvvm_flutter/models/album.dart';
 import 'package:mvvm_flutter/models/album_details.dart';
 import 'package:mvvm_flutter/constants.dart';
 
-
 class Webservice {
   // predefined list of albums
   // songs and songDetails from database

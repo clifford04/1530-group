@@ -1,7 +1,5 @@
 // view model for following friends on friend page
 
-// OLIVIA
-
 import 'package:mvvm_flutter/models/friends.dart';
 import 'package:mvvm_flutter/constants.dart';
 

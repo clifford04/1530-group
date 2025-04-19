@@ -1,6 +1,5 @@
 // class of users
 
-
 class User {
   final int id;
   final List<dynamic> reviews;

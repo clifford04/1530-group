@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:mvvm_flutter/views/chat_page.dart';
 import 'package:mvvm_flutter/constants.dart';
 
-
 class ChatScreen extends StatelessWidget {
   final List<String> people = friends; // friends is from database
 
